@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/react-whack-a-mole/static/css/main.5f361e03.chunk.css",
-    "main.js": "/react-whack-a-mole/static/js/main.33982459.chunk.js",
-    "main.js.map": "/react-whack-a-mole/static/js/main.33982459.chunk.js.map",
-    "runtime-main.js": "/react-whack-a-mole/static/js/runtime-main.5758c178.js",
-    "runtime-main.js.map": "/react-whack-a-mole/static/js/runtime-main.5758c178.js.map",
-    "static/js/2.4d0699e3.chunk.js": "/react-whack-a-mole/static/js/2.4d0699e3.chunk.js",
-    "static/js/2.4d0699e3.chunk.js.map": "/react-whack-a-mole/static/js/2.4d0699e3.chunk.js.map",
+    "main.css": "/react-whack-a-mole/static/css/main.6ad934cc.chunk.css",
+    "main.js": "/react-whack-a-mole/static/js/main.d5ebd4d2.chunk.js",
+    "main.js.map": "/react-whack-a-mole/static/js/main.d5ebd4d2.chunk.js.map",
+    "runtime-main.js": "/react-whack-a-mole/static/js/runtime-main.ba8967cc.js",
+    "runtime-main.js.map": "/react-whack-a-mole/static/js/runtime-main.ba8967cc.js.map",
+    "static/js/2.a97242a9.chunk.js": "/react-whack-a-mole/static/js/2.a97242a9.chunk.js",
+    "static/js/2.a97242a9.chunk.js.map": "/react-whack-a-mole/static/js/2.a97242a9.chunk.js.map",
     "index.html": "/react-whack-a-mole/index.html",
-    "precache-manifest.fb1a4a50ba2f5955c8ef7d0626566163.js": "/react-whack-a-mole/precache-manifest.fb1a4a50ba2f5955c8ef7d0626566163.js",
+    "precache-manifest.b9f62919c2203db95f2b776b1905bfdd.js": "/react-whack-a-mole/precache-manifest.b9f62919c2203db95f2b776b1905bfdd.js",
     "service-worker.js": "/react-whack-a-mole/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/react-whack-a-mole/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.4d0699e3.chunk.js.LICENSE.txt": "/react-whack-a-mole/static/js/2.4d0699e3.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/react-whack-a-mole/static/media/logo.5d5d9eef.svg"
+    "static/css/main.6ad934cc.chunk.css.map": "/react-whack-a-mole/static/css/main.6ad934cc.chunk.css.map",
+    "static/js/2.a97242a9.chunk.js.LICENSE.txt": "/react-whack-a-mole/static/js/2.a97242a9.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/react-whack-a-mole/static/media/wavy-border.5f6056ee.svg",
+    "static/media/whackattack.png": "/react-whack-a-mole/static/media/whackattack.297bf3b1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5758c178.js",
-    "static/js/2.4d0699e3.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.33982459.chunk.js"
+    "static/js/runtime-main.ba8967cc.js",
+    "static/js/2.a97242a9.chunk.js",
+    "static/css/main.6ad934cc.chunk.css",
+    "static/js/main.d5ebd4d2.chunk.js"
   ]
 }
