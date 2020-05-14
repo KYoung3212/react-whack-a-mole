@@ -1,68 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Whack-A-Mole Game
+The Whack-A-Mole interactive game for mobile/desktop displays my ability to be able to create a React JS application from scratch.  Making sure to focus on a modern, sleek, and user-friendly experience, my Whack-A-Mole game gives the user a smooth, yet challenging experience.
 
-## Available Scripts
+Built in React.<br>
+Animation with [Anime.js](http://anime-js.com/).<br>
+Illustration designed in Adobe Illustrator.<br>
+Created with the [create-react-app](https://www.npmjs.com/package/create-react-app) npm module. <br>
+Hosted on Heroku.<br>
 
-In the project directory, you can run:
+You can test it on my [live demo].
 
-### `yarn start`
+<img src="https://github.com/KYoung3212/whack_a_mole_react/blob/master/public/assets/illustration-for-readme.gif" width="320">
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Screenshots
+<img src="https://github.com/KYoung3212/portfolio/blob/master/img/slides/whack-0.jpg" width="320">
+<img src="https://github.com/KYoung3212/portfolio/blob/master/img/slides/whack-1.jpg" width="320">
+<img src="https://github.com/KYoung3212/portfolio/blob/master/img/slides/whack-2.jpg" width="320">
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+## Features
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - A modern/user-friendly mobile/desktop game built entirely in React JS.
+  - Responsive design allows for ease of usage from both desktop and mobile access.
 
-### `yarn build`
+## Planned Features
+  - Integrate a leaderboard to display the highest number of scores of the day/month
+  - Integrate a login feature for the user to keep track of their score history.
+  - Set up a MySql database to keep track of user scores, leaderboards, and date/times.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Personal Insight
+> The Whack-A-Mobile App  is a personal achievement of mine because I was able to create a fun, yet challenging experience for the user.  This project improved my React JS skills significantly, working out errors and bugs which would not have been present in Javascript.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+> After fully implementing all front-end features, I made a few changes to make the user experience a smoother. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Key learnings:
 
-### `yarn eject`
+Calling functions in a component from a different component by passing onClick() in the props:<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### App.js:<br>
+The timeOut function is defined in App.js.
+```
+<StartButton context={ this.state } onClick={ this.timeOut.bind(this) }/>
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### StartButton.js:<br>
+The timeOut function in App.js is called via the onClick on the component in StartButton.js
+```
+render(){
+  return (
+    <button className="game__start-button" type="button"
+      onClick={ this.props.onClick } style={{ display: this.props.context.buttonDisplay }}>
+      { this.props.context.buttonMessage }
+    </button>
+  )
+};
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Contributions
+I have always been a person to continutally want to improve any of my projects since there is always room for improvement.  If you would like to contribute please reach out via [email]: kevin.young3212@yahoo.com or you can reach me directly at my [portfolio]. Thanks!
 
-## Learn More
+   [live demo]: <http://whack-a-mole.kevin-young.us>
+   [email]: <http://kevin.young3212@gmail.com>
+   [portfolio]: <https://kevin-young.us>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
